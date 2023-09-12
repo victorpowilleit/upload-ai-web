@@ -1,27 +1,50 @@
-# React + TypeScript + Vite
+# Upload AI Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Projeto Upload AI Web é o Front-End de uma aplicação que combina inteligência artificial com otimização de SEO para ajudar a maximizar o alcance e a visibilidade dos seus vídeos no Facebook e no YouTube. Esta aplicação frontend automatiza a análise de vídeos e a geração de títulos e descrições de alta qualidade, tornando mais fácil para os criadores de conteúdo alcançarem seu público-alvo.
 
-Currently, two official plugins are available:
+## Recursos Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Análise de Vídeo Avançada:** Utilize algoritmos de IA para analisar detalhadamente o conteúdo de seus vídeos, identificando os pontos fortes.
 
-## Expanding the ESLint configuration
+- **Geração de Títulos e Descrições Otimizadas para SEO:** Crie automaticamente títulos e descrições que melhorem a visibilidade do seu vídeo nos mecanismos de busca.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Integração com Redes Sociais:** Compartilhe seus vídeos diretamente nas redes sociais populares, como o Facebook.
 
-- Configure the top-level `parserOptions` property like this:
+- **Acompanhamento de Desempenho:** Obtenha estatísticas detalhadas sobre o desempenho de seus vídeos para tomar decisões informadas.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- **Personalização Flexível:** Mantenha o controle e personalize títulos e descrições gerados conforme necessário.
+
+## Começando
+
+Para começar a usar o Upload AI Web, siga as instruções abaixo:
+
+1. [Instalação](#instalação): Saiba como configurar o projeto em seu ambiente local.
+
+2. [Uso](#uso): Descubra como usar a aplicação para analisar seus vídeos e gerar conteúdo otimizado.
+
+3. [Contribuição](#contribuição): Informações sobre como você pode contribuir para o desenvolvimento deste projeto.
+
+## Instalação
+
+Para configurar o projeto em seu ambiente local, siga estas etapas:
+
+
+### 1 - Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/upload-ai-web.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 2 - Navegue até o diretório do projeto
+```bash
+cd upload-ai-web
+```
+
+### 3 - Instale as dependências
+```bash
+npm install
+```
+
+### 4 - Inicie a aplicação
+```bash
+npm start
+```
